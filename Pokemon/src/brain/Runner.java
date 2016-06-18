@@ -8,7 +8,7 @@ public class Runner {
 		MyStrategy ketchum = new MyStrategy();
 		//GameController.run200Games(ash, ketchum, true);
 		//GameController.multiplayer(false);
-		GameController.versusComputer(ash);
+		GameController.versusComputer(ash,true);
 	}
 
 }
