@@ -2,7 +2,6 @@ package brain;
 
 import java.util.Random;
 import java.util.Scanner;
-import java.util.File;
 import pokemons.Bulbasaur;
 import pokemons.Charmander;
 import pokemons.Geodude;
@@ -161,12 +160,7 @@ public class GameController {
 							player1turn = true;
 						}
 					} // End one fight.
-					if (poke1.getHP() == poke2.getHP()) {
-						File file = new File("out.txt");
-						file.writeln("asdasd");
-						System.out.println("hp1  is " + poke1.getHP());
-						System.out.println("hp2  is " + poke2.getHP());
-					}
+					
 					// determine  who is the winner.
 					if (poke1.getHP() > poke2.getHP()) {
 						player1wins++;
