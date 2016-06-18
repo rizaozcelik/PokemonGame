@@ -1,5 +1,6 @@
 package brain;
 
+// Runner of the PokemonGame. It allows one to start with different options.
 public class Runner {
 
 	public static void main(String[] args) {
